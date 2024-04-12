@@ -1,0 +1,8 @@
+html body{
+    background: radial-gradient(circle, #0f0f1d, #121725);
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+

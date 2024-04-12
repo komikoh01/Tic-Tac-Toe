@@ -1,0 +1,126 @@
+h1{
+    font-weight: 1000;
+    font-family: 'Pacifico', cursive;
+}
+.board-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 40px;
+    gap: 10px;
+}
+.end{
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    user-select: none;
+}
+.restart{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #1e1e5c;
+    color: #d1d1d1;
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: 'Pacifico', cursive;
+}
+.restart:hover{
+    box-shadow: 3px 3px 3px 3px #151a55;
+}
+
+.turns{
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    user-select: none;
+}
+
+.optionX.Next{
+    padding: 30px;
+    background-color: rgb(0, 230, 230);
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.optionO.Next{
+    padding: 30px;
+    background-color: rgb(0, 230, 230);
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.optionX {
+    padding: 25px;
+    background-color: #1e1e5c;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+    color: #ffe8e8;
+}
+.optionO{
+    padding: 25px;
+    background-color: #1e1e5c;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.modalWinner{
+    font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw; 
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .9;
+}
+
+.modal{
+    width: 400px;
+    height: 350px;
+    opacity: 1;
+    background: #002981;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    color: #fffcfc;
+}
+
+.restartWinn{
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #56adff;
+    color: #ffffff;
+    align-self: center;
+    cursor: pointer;
+    border: none;
+    font-family: 'Pacifico', cursive;
+}
+
+.restartWinn:hover{
+    box-shadow: 3px 3px 3px 3px #030e1f
+}
+
+.gameName{
+    color: #fff;
+}
